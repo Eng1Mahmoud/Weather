@@ -90,8 +90,11 @@ code {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   color:white;
-}
 
+}
+.Weather .error h1{
+  text-align:center;
+}
 .Weather .result .content .temp {
 
   display: flex;

@@ -72,7 +72,7 @@ function Weather() {
         {date.day} / {date.month} / {date.years}
       </h1>
       {notFound ? (
-        <div className="error"><h2>Please enter a valid city name</h2></div>
+        <div className="error"><h1>Please enter a valid city name</h1></div>
       ) : (
         <div className="result">
           <div className="content">
