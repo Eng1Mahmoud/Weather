@@ -11,3 +11,124 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Weather {
+  padding-top: 30px;
+  width: 100%;
+  height: calc(100vh - 30px);
+  background-image: url("./images/suny.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cloud {
+  background-image: url("./images/cloud.jpg");
+}
+
+.rain {
+  background-image: url("./images/rain.jpg");
+}
+
+.Weather .Search {
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  width: 80%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+
+}
+
+.Weather .Search input::placeholder {
+  color: white;
+  font-size: 30px;
+}
+
+.Weather .Search input {
+  height: 80%;
+  padding: 5px;
+  color: white;
+  font-size: 30px;
+  width: 90%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  box-shadow: none;
+}
+
+.Weather .Search i {
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.Weather .result {
+  margin-top: 45px;
+  width: 100%;
+  padding-top: 10px;
+  color: white;
+}
+
+.Weather .date {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+
+.Weather .result .content, .Weather .error {
+  padding: 55px 20px 55px 20px;
+  width: 70%;
+  margin: auto;
+  background: rgba(169, 169, 169, 0.5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color:white;
+}
+
+.Weather .result .content .temp {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Weather .result .content .temp .info .city {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Weather .result .content .temp .info .description {
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+.Weather .result .content .temp .info .description i {
+  padding-right: 7px;
+}
+
+.Weather .result .content .temp .deg {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+@media (max-width:576px) {
+  .Weather .result .content {
+    width: 80%;
+  }
+
+  .Weather .result .content .temp .info .city {
+    font-size: 22px;
+  }
+
+  .Weather .result .content .temp .deg {
+    font-size: 35px;
+  }
+}
