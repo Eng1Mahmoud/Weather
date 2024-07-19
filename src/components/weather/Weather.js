@@ -8,8 +8,6 @@ import WeatherResult from "./WeatherResult";
 function Weather() {
   const [city, setCity] = useState("");
   const { data, background, notFound } = useFetchWeather(city);
-  console.log(data);
-
   const handleCityChange = (event) => {
     setCity(event.target.value);
   };
