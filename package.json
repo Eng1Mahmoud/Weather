@@ -16,13 +16,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "format": "prettier --write  \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "eject": "react-scripts eject",
-    "prepare": "husky"
+    "prepare" :  "husky"  
   },
   "lint-staged": {
-   "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-     "prettier --write"
-   ]
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "format"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +44,8 @@
     ]
   },
   "devDependencies": {
-    "husky": "^9.1.1",
-    "lint-staged": "^15.2.7"
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.7",
+    "prettier": "3.3.3"
   }
 }

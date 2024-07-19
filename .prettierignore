@@ -1,0 +1,24 @@
+# ignore node_modules
+node_modules
+# ignore build files
+build
+# ignore coverage reports
+coverage
+# ignore .git
+.git
+# ignore .vscode
+.vscode
+# ignore .idea
+.idea
+# ignore .DS_Store
+.DS_Store
+# ignore .env
+.env
+# ignore .env.local
+.env.local
+# ignore .env.development.local
+.env.development.local
+
+# ignore package-lock.json
+package-lock.json
+```
