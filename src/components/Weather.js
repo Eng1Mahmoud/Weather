@@ -66,13 +66,16 @@ function Weather() {
           className="fa-solid fa-magnifying-glass"
           onClick={() => {
             changeCity();
-          }}></i>
+          }}
+        ></i>
       </div>
       <h1 className="date">
         {date.day} / {date.month} / {date.years}
       </h1>
       {notFound ? (
-        <div className="error"><h1>Please enter a valid city name</h1></div>
+        <div className="error">
+          <h1>Please enter a valid city name</h1>
+        </div>
       ) : (
         <div className="result">
           <div className="content">
