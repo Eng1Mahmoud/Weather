@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { getCurrentLocation, weatherBackground } from "./helpers";
+import { weatherBackground } from "./helpers";
 import { useContext } from "react";
 import { WeatherContext } from "../../context/context";
 const api = {
@@ -9,15 +9,14 @@ const api = {
 };
 
 export const useFetchWeather = (city) => {
-  const { lang } = useContext(WeatherContext);
+  const { lang, location } = useContext(WeatherContext);
+  console.log(location);
   const [data, setData] = useState({});
   const [background, setBackground] = useState("");
   const [notFound, setNotFound] = useState(false);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const location = await getCurrentLocation();
         const res = await axios.get(
           `${api.apiBase}weather?lat=${location.lat}&lon=${location.lon}&q=${city}&appid=${api.key}&lang=${lang}`,
         );
@@ -37,7 +36,7 @@ export const useFetchWeather = (city) => {
     };
 
     fetchData();
-  }, [city, lang]);
+  }, [city, lang, location.lat, location.lon]);
 
   return { data, background, notFound };
 };

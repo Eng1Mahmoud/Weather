@@ -39,6 +39,7 @@ export const ChangeLang = () => {
       }}
     >
       <select
+        defaultValue={i18next.language}
         style={{
           width: "100px",
           padding: "10px",

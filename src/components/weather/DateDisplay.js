@@ -13,7 +13,12 @@ const DateDisplay = () => {
     return () => clearInterval(interval);
   }, [lang]);
 
-  return <h1 className="date">{date.formatted}</h1>;
+  return (
+    <div>
+      <h2 className="date">{date.formattedDate}</h2>
+      <h2 className="date">{date.formattedTime}</h2>
+    </div>
+  );
 };
 
 export default DateDisplay;
