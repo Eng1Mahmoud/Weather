@@ -4,7 +4,6 @@ import { ChangeLang } from "./components/ChangeLang";
 import { WeatherContext } from "./context/context";
 import { getCurrentLocation } from "./helper/getlocation";
 import i18next from "i18next";
-import { showNotification } from "./helper/sendnotification";
 
 function App() {
   console.log("render");
