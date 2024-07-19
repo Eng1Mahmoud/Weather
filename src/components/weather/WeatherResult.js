@@ -1,6 +1,7 @@
 import React from "react";
 
 const WeatherResult = ({ data }) => {
+  console.log(data);
   return (
     <div className="result">
       <div className="content">
