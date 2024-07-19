@@ -10,7 +10,6 @@ const api = {
 
 export const useFetchWeather = (city) => {
   const { lang, location } = useContext(WeatherContext);
-  console.log(location);
   const [data, setData] = useState({});
   const [background, setBackground] = useState("");
   const [notFound, setNotFound] = useState(false);
