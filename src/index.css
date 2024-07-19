@@ -13,9 +13,9 @@ code {
 }
 
 .Weather {
-  padding-top: 30px;
+  padding-top: 100px;
   width: 100%;
-  height: calc(100vh - 30px);
+  height: 100vh;
   background-image: url("./images/suny.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,12 +112,13 @@ code {
 }
 
 .Weather .result .content .temp .info .description i {
-  padding-right: 7px;
+  padding-inline: 10px;
 }
 
 .Weather .result .content .temp .deg {
   font-size: 45px;
   font-weight: bold;
+  direction: ltr;
 }
 
 @media (max-width: 576px) {
