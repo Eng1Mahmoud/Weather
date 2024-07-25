@@ -1,16 +1,9 @@
 import React, { useEffect } from "react";
 import Weather from "./components/weather/Weather";
 import { ChangeLang } from "./components/ChangeLang";
-import { WeatherContext } from "./context/context"
-import { getCurrentLocation } from "./helper/getlocation"
+import { WeatherContext } from "./context/context";
+import { getCurrentLocation } from "./helper/getlocation";
 import i18next from "i18next";
-
-
-
-
-
-
-
 
 
 
