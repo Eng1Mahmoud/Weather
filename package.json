@@ -1,45 +1,50 @@
 {
-  "name": "weather",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "axios": "^0.27.2",
-    "dayjs": "^1.11.12",
-    "eslint-plugin-react": "^7.35.0",
-    "i18next": "^23.12.2",
-    "i18next-browser-languagedetector": "^8.0.0",
-    "i18next-http-backend": "^2.5.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-i18next": "^15.0.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "format": "prettier 'src/**/*.{js,jsx,test.js,test.jsx}' --write ",
-    "eject": "react-scripts eject",
-    "prepare": "husky"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@testing-library/user-event": "^14.5.2",
-    "eslint-config-react-app": "^7.0.1",
-    "prettier": "3.3.3"
-  }
+    "name": "weather",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.3.0",
+        "axios": "^0.27.2",
+        "dayjs": "^1.11.12",
+        "i18next": "^23.12.2",
+        "i18next-browser-languagedetector": "^8.0.0",
+        "i18next-http-backend": "^2.5.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^15.0.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "format": "prettier 'src/**/*.{js,jsx,test.js,test.jsx}' --write ",
+        "eject": "react-scripts eject",
+        "prepare": "husky"
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,test.js,test.jsx}": [
+            "prettier --write"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.7.0",
+        "@testing-library/user-event": "^14.5.2",
+        "lint-staged": "^15.2.7",
+        "prettier": "3.3.3"
+    }
 }
