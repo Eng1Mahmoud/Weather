@@ -3,6 +3,8 @@ import i18next from "i18next";
 import { useContext } from "react";
 import { WeatherContext } from "../context/context";
 
+let age = 20;
+
 const languages = [
     {
         title: "English",
