@@ -5,27 +5,6 @@ import { WeatherContext } from "./context/context";
 import { getCurrentLocation } from "./helper/getlocation";
 import i18next from "i18next";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function App() {
   console.log("render");
   const [lang, setLang] = React.useState(i18next.language);
