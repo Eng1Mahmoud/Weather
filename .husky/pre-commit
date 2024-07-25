@@ -1,3 +1,2 @@
-npm run format
-npm run eslint
+npx lint-staged
 
