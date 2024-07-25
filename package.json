@@ -22,19 +22,8 @@
     "test": "react-scripts test",
     "format": "prettier --write  \"src/\"",
     "eslint": "eslint --fix \"src/\"",
-    "eject": "react-scripts eject"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "\"src/\"": [
-      "prettier --write",
-      "eslint --fix",
-      "react-scripts test"
-    ]
+    "eject": "react-scripts eject",
+    "prepare": "husky"
   },
   "eslintConfig": {
     "extends": [
@@ -56,8 +45,6 @@
   },
   "devDependencies": {
     "@testing-library/user-event": "^14.5.2",
-    "husky": "^8.0.0",
-    "lint-staged": "^15.2.7",
     "prettier": "3.3.3"
   }
 }
