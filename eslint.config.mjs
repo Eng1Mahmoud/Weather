@@ -6,11 +6,14 @@ export default [
   pluginJs.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-
     languageOptions: {
       globals: globals.browser,
     },
-
+    settings: {
+      react: {
+        version: 'detect', 
+      },
+    },
     rules: {
       semi: ["error", "always"],
       quotes: ["error", "double"],
