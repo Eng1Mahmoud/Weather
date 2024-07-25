@@ -3,10 +3,6 @@ import i18next from "i18next";
 import { useContext } from "react";
 import { WeatherContext } from "../context/context";
 
-
-
-
-
 const languages = [
     {
         title: "English",
