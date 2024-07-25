@@ -22,8 +22,7 @@
     "test": "react-scripts test",
     "format": "prettier --write  \"src/\"",
     "eslint": "eslint --fix \"src/\"",
-    "eject": "react-scripts eject",
-    "prepare": "husky"
+    "eject": "react-scripts eject"
   },
   "husky": {
     "hooks": {
