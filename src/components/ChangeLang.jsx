@@ -1,7 +1,24 @@
 import React from "react";
 import i18next from "i18next";
 import { useContext } from "react";
-import { WeatherContext } from "../context/context";
+import { WeatherContext } from "../context/context"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const languages = [
     {
