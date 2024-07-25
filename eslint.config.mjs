@@ -15,6 +15,7 @@ export default [
       semi: ["error", "always"],
       quotes: ["error", "double"],
       "no-unused-vars": "error",
+      "react/prop-types": "off",
     },
   },
 ];
