@@ -5,7 +5,7 @@ import { WeatherContext } from "../context/context";
 
 const languages = [
     {
-        title: 'English',
+        title: "English",
         code: "en",
     },
     {
