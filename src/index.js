@@ -8,9 +8,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // i18nInit();
 i18nInit();
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
 );
 
 reportWebVitals();
