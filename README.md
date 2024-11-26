@@ -65,17 +65,6 @@ Follow these steps to set up and run the application locally:
 - `npm run format`: Format code with Prettier
 - `npm run eject`: Eject from Create React App
 
-## 🌐 Browser Support
-
-### Production
-- Browsers with >0.2% market share
-- Modern browsers
-- Not Opera Mini
-
-### Development
-- Latest Chrome version
-- Latest Firefox version
-- Latest Safari version
 
 ## 🔗 Live Demo
 
