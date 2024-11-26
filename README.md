@@ -1,71 +1,100 @@
-# Getting Started with Create React App
+# Weather App
 
+A modern weather application built with React, providing real-time weather information with an intuitive interface and multi-language support.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌟 Features
+- **Real-Time Weather Data**: Instant weather information for any city worldwide.
+- **Internationalization**: Multi-language support (Arabic & English) using `i18next`.
+- **Date Formatting**: Precise date and time handling with `dayjs`.
+- **HTTP Client**: Efficient API requests using `axios`.
+- **Code Quality**: Maintained with Prettier and Husky.
+- **Testing**: Comprehensive testing setup with Jest and React Testing Library.
 
-## Available Scripts
+## 🛠 Technologies Used
 
-In the project directory, you can run:
+### Frontend
+- **React (v18.2.0)**: Library for building user interfaces.
+- **React DOM (v18.2.0)**: Package for DOM manipulations.
+- **React Scripts (v5.0.1)**: Configuration and scripts for React apps.
 
-### `npm start`
+### Internationalization
+- **i18next (v23.12.2)**: Framework for internationalization.
+- **i18next-browser-languagedetector (v8.0.0)**: Language detection.
+- **i18next-http-backend (v2.5.2)**: Backend for i18next.
+- **react-i18next (v15.0.0)**: React bindings for i18next.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Utilities
+- **Axios (v0.27.2)**: Promise-based HTTP client.
+- **Dayjs (v1.11.12)**: Lightweight date formatting library.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Development & Testing
+- **Jest**: Testing framework included with React Scripts.
+- **React Testing Library**: Testing utilities for React components.
+- **Husky (v9.1.3)**: Git hooks automation.
+- **Prettier (v3.3.3)**: Code formatting.
+- **Lint Staged (v15.2.7)**: Run linters on staged files.
 
-### `npm test`
+## 🚀 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to set up and run the application locally:
 
-### `npm run build`
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Eng1Mahmoud/Weather.git
+   cd Weather
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start Development Server**:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Open Application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### `npm run eject`
+## 📝 Available Scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `npm start`: Run development server
+- `npm test`: Execute test suite
+- `npm run build`: Create production build
+- `npm run format`: Format code with Prettier
+- `npm run eject`: Eject from Create React App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Browser Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Production
+- Browsers with >0.2% market share
+- Modern browsers
+- Not Opera Mini
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Development
+- Latest Chrome version
+- Latest Firefox version
+- Latest Safari version
 
-## Learn More
+## 🔗 Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Experience the app live: [Weather App Demo](https://weather-fawn-five.vercel.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👨‍💻 Contributing
 
-### Code Splitting
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <p>If you found this project useful, please consider giving it a ⭐️</p>
+</div>
