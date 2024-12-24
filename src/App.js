@@ -6,7 +6,6 @@ import { getCurrentLocation } from "./helper/getlocation";
 import i18next from "i18next";
 
 function App() {
-    console.log("render");
     const [lang, setLang] = React.useState(i18next.language);
     const [location, setLocation] = React.useState({ lat: 0, lon: 0 });
     // get location and set direction depend on the language in i18next
